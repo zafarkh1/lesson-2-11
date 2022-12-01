@@ -1,0 +1,66 @@
+@media (max-width: $lg) {
+  .container {
+    width: $md - 20px;
+  }
+	section#meaningful {
+		.container {
+			grid-template-columns: repeat(4, 1fr);
+		}
+	}
+}
+@media (max-width: $md) {
+  .container {
+    width: $sm - 20px;
+  }
+  header#header {
+    div.container.flex {
+      .main-link,
+      .cart {
+        display: none;
+      }
+    }
+
+    aside.sider {
+      display: block;
+    }
+  }
+	section#inspire {
+		.container {
+			flex-direction: column;
+		}
+	}
+	section#products {
+		.container {
+			.apple {
+				width: 45%;
+			}
+		}
+	}
+}
+@media (max-width: $sm) {
+  .container {
+    width: 100%;
+    padding-inline: 1rem;
+  }
+  header#header {
+    div.container.flex {
+      .main-link,
+      .cart {
+        display: none;
+      }
+    }
+
+    aside.sider {
+      display: block;
+    }
+  }
+
+  section#showcase {
+    align-items: flex-start;
+  }
+		section#products {
+		.container {
+			grid-template-columns: repeat(1, 1fr);
+		}
+	}
+}

@@ -1,0 +1,22 @@
+section#joinsus {
+	// background-color: red;
+	padding-block: 5rem;
+	padding-inline: 3rem;
+	.joinus-1, .joinus-2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 3rem;
+	}
+	.joinus-2 {
+		background-color: $grey;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-block: 8rem;
+		padding-inline: 5rem;
+		margin-top: 5rem;
+	}
+}

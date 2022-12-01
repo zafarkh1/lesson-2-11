@@ -1,0 +1,24 @@
+section#products {
+	// background-color: red;
+	color: $grey;
+	h3	 {
+		color: $black;
+	}
+	.products-info {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+	}
+	.container {
+		margin-top: 3rem;
+		display: flex;
+		gap: 2rem;
+		.apple {
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
+		}
+
+	}
+}

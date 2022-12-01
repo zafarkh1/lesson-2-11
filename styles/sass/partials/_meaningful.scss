@@ -1,0 +1,21 @@
+section#meaningful {
+	// background-color: red;
+	.info-meaningful {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 2rem;
+		p {
+			color: $grey;
+			width: 800px;
+			text-align: center;
+		}
+	}
+	.container {
+		margin-top: 2rem;
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		gap: 1rem;
+	}
+}

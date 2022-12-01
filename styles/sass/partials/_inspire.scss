@@ -1,0 +1,25 @@
+section#inspire {
+  // background-color: red;
+  padding-block: 3rem;
+  .top-inspire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+		gap: 1.5rem;
+		margin-bottom: 3rem;
+		p {
+			color: $grey;
+		}
+  }
+	.container {
+		display: flex;
+		gap: 2rem;
+		.desktops {
+			display: flex;
+			flex-direction: column;
+			gap: 2rem;
+			align-items: center;
+		}
+	}
+}

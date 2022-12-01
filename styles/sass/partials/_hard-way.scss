@@ -1,0 +1,13 @@
+section#hard-way {
+	// background-color: red;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	p {
+		color: $grey;
+		width: 700px;
+		text-align: center;
+	}
+}
